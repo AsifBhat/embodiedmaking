@@ -1,0 +1,475 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: Glegoo, serif;
+}
+
+.hex {
+  color: white;
+  text-align: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+  background-position: center;
+}
+
+.hex.dragged {
+  opacity: 0.4
+}
+
+#menubar {
+  padding-top: .5em;
+  padding-left: .5em;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  background-color: #4C4C4C;
+  z-index: 10;
+  border-bottom-style: solid;
+  border-color: #e0e0e0;
+  border-width: 1px;
+}
+
+#import_file {
+  display: inline;
+  color: #050505;
+}
+
+#import_container{
+  background-color: #f8f8f8;
+}
+
+#import_file_input{
+  color: #000000;
+}
+
+.import_btn {
+  top: 0px;
+  display: inline;
+  color: #FFFFFF;
+}
+
+.flash_board{
+  position: fixed;
+  width: 150px;
+  color: #FFFFFF;
+  z-index: 10;
+}
+
+#message_board{
+  top: 100px;
+  background-color: #CC3300;
+}
+#progress_container {
+  display: none;
+  top: 180px;
+  background-color: #FAFAFA;
+  z-index: 20;
+}
+
+.remove_btn{
+  clear: none;
+}
+
+.tooltip-inner{
+  min-width: 100px;
+  padding: 5px;
+}
+
+#deleteButton{
+  margin-left: 3px;
+  z-index:1000;
+  font-size:1em;
+}
+
+#desctooltip {
+  z-index:-1;
+  width:10px;
+  height:10px;
+  opacity:.5;
+  position:absolute;
+}
+
+#graphContainer{
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;  
+  overflow:hidden;
+  width:300px;
+  height:300px;
+  position:absolute;
+  z-index:1010;
+  bottom:0px;
+  left:0px;
+  box-shadow: 0 0 15px black;
+}
+
+#graphView{
+  position:absolute;
+  z-index: 1010;
+  height:300px;
+  width:300px;
+}
+
+
+.sigma {
+  margin-left:auto;
+  margin-right:auto;
+  position: absolute;
+  background: #FFF;
+  top: 0;
+  left: 0;
+}
+
+.app_load_modal{
+  width: 35%;
+}
+
+#element-input {
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 1000px;
+  z-index: 1000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#elemtextarea{
+  width: 200px; 
+  min-width:200px; 
+  max-height:200px; 
+  height:200px; 
+  min-height:200px;  
+  max-height:200px;
+  resize: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.page-header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #FFFFFF;
+  top: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.proj_title_row{
+  background-color: rgb(243, 246, 246);
+  margin-left:0px;
+  border-left: 1px solid ;
+  border-right: 1px solid ;
+  border-color: #DADADA;
+  width: 65%;
+}
+
+.proj_title{
+  font-size: 1.5em;
+  font-weight : normal;
+  margin: 10px 5px;
+  color: #3d3d49;
+  font-family: 'Glegoo', serif;
+}
+
+.title_holder{
+  height: 3em;
+}
+
+.title_edit{
+  margin: 10px 5px;
+}
+
+.login_button{
+  margin-right: 2em;
+}
+
+#element_edit{
+  top: 100px;
+  left: 70%;
+  position: fixed;
+  background-color : #FFFFFF;
+  color: #090909;
+  display: none;
+  box-shadow: 0 0 15px black;
+  z-index: 500;
+  padding : none;
+  overflow: visible;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#content-search {
+  /*position: fixed;*/
+  z-index: 100;
+  opacity: 1;
+  /*margin-left: 25px;*/
+  margin-top : 20px;
+}
+
+#collapseOne{
+  position: relative;
+  margin: 1em;
+}
+
+.cellDesc {
+  max-height: 200px;
+  overflow-y: scroll;
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+.edit_inner{
+  position: relative;
+  margin-left: 25px;
+  margin-bottom : 1em;
+}
+
+#element_edit_container{
+  overflow: visible;
+}
+
+#elementsTab{
+  border: none;
+  margin: 0px 13%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#elementsTab .tab_head a{
+  padding-right:6px;
+  padding-left:6px;
+}
+
+.bordered {
+  /*background-image: url('/assets/images/bordercolor.png');
+  background-position: 0 0; */
+  background-color: rgb(54, 44, 44);
+  -webkit-clip-path: polygon(20% 0%, 75% 0%, 100% 50%, 75% 100%, 20% 100%, 0% 50%);
+  position: absolute;
+}
+
+.hex-controller{
+  margin-right : 1em;
+}
+
+.emtool_logo{
+  margin-left:10px;
+  max-width:67%;
+}
+
+/* nugget button on the header bar*/
+#nugget_btn{
+  background-repeat: no-repeat;
+  background-size: 2.5em 2.5em;
+  background-position: .4em .3em;
+}
+
+.control_btn{
+  width: 3em;
+  height: 3em;
+  border-right: 1px solid #DADADA;
+}
+
+#element_controls{
+  margin-left: 0px;
+}
+
+.control_btn:hover{
+  background-color:#f3f6f6;
+}
+
+#col_settings_gear{
+  line-height: 2.8em;
+  padding-left: 10px;
+}
+
+#settings_gear{
+ /*color: #84848c;*/
+}
+
+#settings_gear:hover {
+  color: #0052CC;
+}
+
+.user_info_tag{
+  float: right;
+}
+
+.user_info_tag img{
+  border: 1px solid #dadada;
+  max-height: 3em;
+  float: right;
+}
+
+/*
+ * Size style for the edit panel
+ */
+#edit_pane{
+  height: 100%;
+  width : 350px;
+  z-index: 1001;
+  opacity: .4;
+}
+
+/*
+ * Positioning for editing panel and all the other panes that come on top of it 
+ */
+.cont_edit_pane{
+  background-color: #ffffff;
+  top : 6em;
+  left: 70.5%;
+  position: fixed;
+  z-index: 1002;
+}
+
+/* Rounded Border stlying*/
+.rounded_border{
+  border: 1px solid #E5E5E5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+/* Icon for the nuggets. This is general style for the background*/
+.nuggets_icon{
+  background-image: url('/assets/images/hex-nugget.svg');
+}
+
+/* Style for header icons on the edit_pane eg for nuggets the nuggets-icon*/
+.item_icon{
+  width: 2em;
+  height: 2em;
+  background-repeat: no-repeat;
+  background-size: 2em 2em;
+  background-position: .3em -.2em;
+  margin-right: 2px;
+}
+
+/*Nuggets section header: can be generalized to all section headers*/
+.ed_header{
+  height: 2.5em;
+  margin: 0px;
+  line-height: 2em;
+  padding: 0px 25%;
+  background-color: #FFFFFF;
+}
+
+/*  
+ * sections where the content desc of 
+ * all the elements and nuggets goes while 
+ * displaying 
+*/
+.ed_body{
+  background-color: #FFFFFF;
+  margin: 0px;
+  height: 100%;
+  width: inherit;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/*
+ * Section for editing nuggets
+ */
+.edit_nuggets{
+  width: 22em;
+  height: 60%;
+  background-color: #E3E3E9;
+  margin: .5em 1em 2em 1.5em;
+  opacity: 1;
+}
+
+/*
+ * View for nugget controls
+ */
+.nugget_view{
+  width: inherit;
+}
+
+/*
+ * Section for adding new nuggets to the Making
+ */
+.add_nugget_section{
+  background-color: #DADADA;
+  margin: 0px;
+}
+
+/*
+ * ADD Nugget icon style
+ */
+.add_nugget_icon{
+  position: relative;
+  width: 51px;
+  height: 55px;
+  background-image: url('/assets/images/hex-grey.svg');
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.add_nugget_icon h3{
+  margin: 4px 8px;
+  font-size: 4em;
+}
+
+/*
+ * Text style for the section to add a new element/nugget
+ */
+.add_section_text{
+  font-size: .85em;
+  margin: 10% 0px;
+  line-height: 1em;
+}
+
+#add_nugget_textarea{
+  margin-left: 30px;
+}
+
+/*
+ * Search and select the existing Nuggets
+ */
+.nugget_search{
+  background-color: #FFFFFF;
+  padding: 20px 0px 10px 40px;
+  border: 1px solid #DADADA;
+}
+
+/*
+ * Controls for adding a new Nugget.
+ */
+.add_nugget_control{
+  background-color: none;
+  background-image: url('/assets/images/transparent_bg.png');
+  width: inherit;
+  height: inherit;
+}
+
+/*
+ * Button to stop adding a nugget
+ */
+.close_add_nugget{
+  position: relative;
+  left: 90%;
+  top: 1%;
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+
+.nugget_desc {
+  background-color: #FAFAFA;
+}
+
+.nugget_listing{
+  margin: 0px;
+  padding: 10px;
+  line-height: 2em;
+  border-bottom: 1px solid #DADADA;
+}
+
+.collab_pane{
+	float:right;
+	background-color:lightgreen;
+	  height:300px;
+    width:300px;
+    border:1px solid black;
+}

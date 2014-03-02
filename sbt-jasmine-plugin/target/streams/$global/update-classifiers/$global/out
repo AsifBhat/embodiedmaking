@@ -1,0 +1,112 @@
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/sbtjasmineplugin/sbtjasmineplugin$sources_javadoc_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 11ms :: artifacts dl 0ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for sbtjasmineplugin#sbtjasmineplugin$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /Data/MyStuff/embodied/embodiedmakingtooling-heroku/sbt-jasmine-plugin/target/resolution-cache/reports/sbtjasmineplugin-sbtjasmineplugin$sources_javadoc_2.10/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (11ms resolve - 0ms download)[0m

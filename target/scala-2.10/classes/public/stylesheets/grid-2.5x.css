@@ -1,0 +1,26 @@
+#hexagonal-grid {
+  width: 100%;
+  height: 100%;
+  background: #e3e3e9;
+  background-image: url('/assets/images/back.svg');
+  background-size: 105px 180px;
+}
+.hex.current {
+  background-image: url('/assets/images/hex-roundborder.svg');
+  z-index: 1;
+}
+.hex.new {
+  background-image: url('/assets/images/hex-grey.svg');
+}
+.hex.stories {
+  background-image: url('/assets/images/hex-pink.svg');
+  font-size: 30px;
+}
+.hex.forces {
+  background-image: url('/assets/images/hex-purple.svg');
+  font-size: 30px;
+}
+.hex.solutionComponents {
+  background-image: url('/assets/images/hex-orange.svg');
+  font-size: 30px;
+}

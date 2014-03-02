@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="emtool"
+		module="emtool$sources_javadoc_2.10"
+		revision="1.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20140209012404"/>
+	<dependencies>
+		<module organisation="play" name="anorm_2.10">
+			<revision name="2.1.1" status="release" pubdate="20130506171908" resolver="Typesafe Releases Repository" artresolver="Typesafe Releases Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<metadata-artifact status="no" details="" size="2382" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/anorm_2.10/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/anorm_2.10/2.1.1/anorm_2.10-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="anorm_2.10" type="jar" ext="jar" status="no" details="" size="296149" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/anorm_2.10/jars/anorm_2.10-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/anorm_2.10/2.1.1/anorm_2.10-2.1.1.jar"/>
+					</artifact>
+					<artifact name="anorm_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8677" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/anorm_2.10/srcs/anorm_2.10-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/anorm_2.10/2.1.1/anorm_2.10-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210180318" resolver="public" artresolver="public" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/dom4j/dom4j/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="dom4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="432186" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/dom4j/dom4j/srcs/dom4j-1.6.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+					</artifact>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20070209060046" resolver="public" artresolver="public" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/xml-apis/xml-apis/ivy-1.0.b2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="407051" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/xml-apis/xml-apis/srcs/xml-apis-1.0.b2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar"/>
+					</artifact>
+					<artifact name="xml-apis" type="jar" ext="jar" status="no" details="" size="109318" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="play-jdbc_2.10">
+			<revision name="2.1.1" status="release" pubdate="20130506171855" resolver="Typesafe Releases Repository" artresolver="Typesafe Releases Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="3101" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-jdbc_2.10/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/play-jdbc_2.10/2.1.1/play-jdbc_2.10-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-jdbc_2.10" type="jar" ext="jar" status="no" details="" size="209814" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-jdbc_2.10/jars/play-jdbc_2.10-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-jdbc_2.10/2.1.1/play-jdbc_2.10-2.1.1.jar"/>
+					</artifact>
+					<artifact name="play-jdbc_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11761" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-jdbc_2.10/srcs/play-jdbc_2.10-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-jdbc_2.10/2.1.1/play-jdbc_2.10-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="play-java_2.10">
+			<revision name="2.1.1" status="release" pubdate="20130506171855" resolver="Typesafe Releases Repository" artresolver="Typesafe Releases Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<metadata-artifact status="no" details="" size="5078" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-java_2.10/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/play-java_2.10/2.1.1/play-java_2.10-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-java_2.10" type="jar" ext="jar" status="no" details="" size="95009" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-java_2.10/jars/play-java_2.10-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-java_2.10/2.1.1/play-java_2.10-2.1.1.jar"/>
+					</artifact>
+					<artifact name="play-java_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40762" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-java_2.10/srcs/play-java_2.10-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-java_2.10/2.1.1/play-java_2.10-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.assembla.scala-incubator" name="graph-core_2.10">
+			<revision name="1.6.2" status="release" pubdate="20130802000142" resolver="public" artresolver="public" homepage="http://subversion.assembla.com/svn/scala-graph/trunk" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2945" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/com.assembla.scala-incubator/graph-core_2.10/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/assembla/scala-incubator/graph-core_2.10/1.6.2/graph-core_2.10-1.6.2.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="graph-core_2.10" type="jar" ext="jar" status="no" details="" size="1188879" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/com.assembla.scala-incubator/graph-core_2.10/jars/graph-core_2.10-1.6.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/assembla/scala-incubator/graph-core_2.10/1.6.2/graph-core_2.10-1.6.2.jar"/>
+					</artifact>
+					<artifact name="graph-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="81295" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/com.assembla.scala-incubator/graph-core_2.10/srcs/graph-core_2.10-1.6.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/assembla/scala-incubator/graph-core_2.10/1.6.2/graph-core_2.10-1.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="graph-core_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3036701" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/com.assembla.scala-incubator/graph-core_2.10/docs/graph-core_2.10-1.6.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/assembla/scala-incubator/graph-core_2.10/1.6.2/graph-core_2.10-1.6.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="play_2.10">
+			<revision name="2.1.1" status="release" pubdate="20130506171638" resolver="Typesafe Releases Repository" artresolver="Typesafe Releases Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="6409" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play_2.10/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/play_2.10/2.1.1/play_2.10-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372324" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play_2.10/srcs/play_2.10-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play_2.10/2.1.1/play_2.10-2.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="play_2.10" type="jar" ext="jar" status="no" details="" size="4683354" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play_2.10/jars/play_2.10-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play_2.10/2.1.1/play_2.10-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.6.3.Final" status="release" pubdate="20130221192442" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6425" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/io.netty/netty/ivy-3.6.3.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.6.3.Final/netty-3.6.3.Final.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="3.6.3.Final" rev-constraint-default="3.6.3.Final" rev-constraint-dynamic="3.6.3.Final" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="10797934" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/io.netty/netty/docs/netty-3.6.3.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.3.Final/netty-3.6.3.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1062263" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/io.netty/netty/srcs/netty-3.6.3.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.3.Final/netty-3.6.3.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1202373" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/io.netty/netty/jars/netty-3.6.3.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.3.Final/netty-3.6.3.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="play-iteratees_2.10">
+			<revision name="2.1.1" status="release" pubdate="20130506171639" resolver="Typesafe Releases Repository" artresolver="Typesafe Releases Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-iteratees_2.10/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/play-iteratees_2.10/2.1.1/play-iteratees_2.10-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23862" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-iteratees_2.10/srcs/play-iteratees_2.10-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-iteratees_2.10/2.1.1/play-iteratees_2.10-2.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="no" details="" size="642753" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-iteratees_2.10/jars/play-iteratees_2.10-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-iteratees_2.10/2.1.1/play-iteratees_2.10-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="templates_2.10">
+			<revision name="2.1.1" status="release" pubdate="20130506171638" resolver="Typesafe Releases Repository" artresolver="Typesafe Releases Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/templates_2.10/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/templates_2.10/2.1.1/templates_2.10-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="templates_2.10" type="jar" ext="jar" status="no" details="" size="38326" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/templates_2.10/jars/templates_2.10-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/templates_2.10/2.1.1/templates_2.10-2.1.1.jar"/>
+					</artifact>
+					<artifact name="templates_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1929" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/templates_2.10/srcs/templates_2.10-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/templates_2.10/2.1.1/templates_2.10-2.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="play-exceptions">
+			<revision name="2.1.1" status="release" pubdate="20130506170557" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="2228" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-exceptions/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/play-exceptions/2.1.1/play-exceptions-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2135" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-exceptions/srcs/play-exceptions-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-exceptions/2.1.1/play-exceptions-2.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="play-exceptions" type="jar" ext="jar" status="no" details="" size="4558" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/play-exceptions/jars/play-exceptions-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/play-exceptions/2.1.1/play-exceptions-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="play" name="sbt-link">
+			<revision name="2.1.1" status="release" pubdate="20130506170554" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<metadata-artifact status="no" details="" size="2379" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/sbt-link/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/play/sbt-link/2.1.1/sbt-link-2.1.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sbt-link" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3959" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/sbt-link/srcs/sbt-link-2.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/sbt-link/2.1.1/sbt-link-2.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="sbt-link" type="jar" ext="jar" status="no" details="" size="8480" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/play/sbt-link/jars/sbt-link-2.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/play/sbt-link/2.1.1/sbt-link-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.1" status="release" pubdate="20130313043420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2392" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/org.scala-lang/scala-library/ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1058917" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33578873" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/org.scala-lang/scala-library/docs/scala-library-2.10.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sbtjasmineplugin" name="sbtjasmineplugin_2.10">
+			<revision name="0.1-SNAPSHOT" status="integration" pubdate="20140209012404" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="emtool" name="emtool$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="0.1-SNAPSHOT" rev-constraint-default="0.1-SNAPSHOT" rev-constraint-dynamic="0.1-SNAPSHOT" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

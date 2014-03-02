@@ -1,0 +1,13 @@
+[0m[[33mwarn[0m] [0m	[NOT FOUND  ] junit#junit-dep;4.8.2!junit-dep.jar(src) (1ms)[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  /Data/MyStuff/important/software/play-2.1.0/repository/local/junit/junit-dep/4.8.2/srcs/junit-dep-sources.jar[0m
+[0m[[33mwarn[0m] [0m	[NOT FOUND  ] junit#junit-dep;4.8.2!junit-dep.jar(doc) (0ms)[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  /Data/MyStuff/important/software/play-2.1.0/repository/local/junit/junit-dep/4.8.2/docs/junit-dep-javadoc.jar[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	::              FAILED DOWNLOADS            ::[0m
+[0m[[33mwarn[0m] [0m	:: ^ see resolution messages for details  ^ ::[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	:: junit#junit-dep;4.8.2!junit-dep.jar(src)[0m
+[0m[[33mwarn[0m] [0m	:: junit#junit-dep;4.8.2!junit-dep.jar(doc)[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m

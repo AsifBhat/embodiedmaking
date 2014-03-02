@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.gu"
+		module="sbt-jasmine-plugin"
+		revision="0.8-SNAPSHOT"
+		extra-sbtVersion="0.12"
+		extra-scalaVersion="2.9.2"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20140206015448"/>
+	<dependencies>
+		<module organisation="org.mozilla" name="rhino">
+			<revision name="1.7R3" status="release" pubdate="20110720113040" resolver="public" artresolver="public" homepage="http://www.mozilla.org/rhino/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="Mozilla Public License, Version 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.txt"/>
+				<license name="GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3004" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/org.mozilla/rhino/ivy-1.7R3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R3/rhino-1.7R3.pom"/>
+				<caller organisation="com.gu" name="sbt-jasmine-plugin" conf="optional, compile, runtime, runtime-internal" rev="1.7R3" rev-constraint-default="1.7R3" rev-constraint-dynamic="1.7R3" callerrev="0.8-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="rhino" type="jar" ext="jar" status="no" details="" size="1094805" time="0" location="/Data/MyStuff/important/software/play-2.1.0/framework/../repository/cache/org.mozilla/rhino/jars/rhino-1.7R3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R3/rhino-1.7R3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
